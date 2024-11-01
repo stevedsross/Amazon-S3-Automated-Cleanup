@@ -9,7 +9,7 @@ This script depends on the s3cmd binary that is already authenticated. It's can 
 * server
 * retention in days
 
-`bash s3-cleanup.sh -s cobalt -r 30`
+`bash s3-cleanup.sh -s SERVER_NAME -r 30`
 
 Naming convention of s3 buckets is: 
 
